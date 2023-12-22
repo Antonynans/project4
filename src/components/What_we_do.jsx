@@ -8,7 +8,7 @@ const What_we_do = () => {
   return (
     <div className="relative overflow-hidden bg-[#fff6ed] lg:py-20 py-8">
       <div className="h-[50px] bg-[#003b29] absolute -bottom-7 -left-[30px] -right-[30px] py-3 px-[30px] rounded-[50%]"></div>
-      <div className="container mx-auto px-3 pt-8">
+      <div className="xl:w-[1200px] mx-auto px-3 pt-8">
         <section className="relative">
           <p className="text-center text-[#fb7a3f]">What we do</p>
           <h1 className="text-center text-[#054130] lg:text-5xl text-xl primary-font">

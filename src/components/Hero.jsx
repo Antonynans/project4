@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-[#003b29] lg:py-20 py-8">
       <div className="h-[50px] bg-[#fff6ed] absolute -bottom-7 -left-[30px] -right-[30px] py-3 px-[30px] rounded-[50%]"></div>
-      <div className="container mx-auto px-3 lg:flex items-center justify-between ">
+      <div className="xl:w-[1200px] mx-auto px-3 lg:flex items-center justify-between ">
         <div className="text-white lg:w-1/2">
           <h1 className="lg:text-7xl text-2xl leading-normal pb-8 primary-font font-medium">
             Architects with{" "}
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
         <div className="lg:w-[35%] w-72 relative lg:mx-0 mx-auto lg:flex justify-end lg:py-0 py-8">
           <img src="/assets/Main_Image.png" alt="" className="lg:w-full" />
-          <img src="/assets/section_two_image.png" alt="" className="lg:w-40 w-1/4 absolute bottom-16 lg:-left-20 -left-10" />
+          <img src="/assets/section_two_image.png" alt="" className="sm:block hidden lg:w-40 w-1/4 absolute bottom-16 lg:-left-20 -left-10" />
           <p className="absolute top-10 right-0 rotate-90 text-white font-medium">+75.8%</p>
         </div>
       </div>

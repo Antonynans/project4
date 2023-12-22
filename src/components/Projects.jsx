@@ -5,61 +5,46 @@ import { FaArrowUp, FaStackOverflow } from "react-icons/fa";
 import { TbVectorBezierCircle } from "react-icons/tb";
 import { BiLoaderCircle } from "react-icons/bi";
 
-
-
 const Projects = () => {
+  const Cards = ({ img, title, desc }) => {
+    return (
+      <div className="lg:pb-0 pb-4 w-full transform transition ease-out duration-300 hover:scale-[1.03]">
+        <img src={img} alt="" className="lg:w-full md:w-52 mx-auto" />
+        <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
+          <span className="text-[#003b29] pt-2">
+            <p className="text-xl primary-font font-medium">{title}</p>
+            <p>{desc}</p>
+          </span>
+          <FaArrowUp className="rotate-45 text-2xl" />
+        </div>
+      </div>
+    );
+  };
   return (
     <div className="relative overflow-hidden bg-[#fff6ed] lg:py-20 py-8">
       <div className="h-[50px] bg-[#003b29] absolute -bottom-7 -left-[30px] -right-[30px] py-3 px-[30px] rounded-[50%]"></div>
-      <div className="container mx-auto px-3 pt-8">
+      <div className="xl:w-[1200px] max-w[75%] mx-auto px-3 pt-8">
         <section className="relative lg:py-0 py-8">
           <p className="text-center text-[#fb7a3f]">Our recent works</p>
           <h1 className="text-center text-[#054130] primary-font lg:text-5xl text-xl font-semibold">
             Our completed projects
           </h1>
-          <div className="md:flex items-center justify-between lg:pt-20 pt-8">
-            <div className="lg:pb-0 pb-4">
-              <img
-                src="/assets/grid_image1.png"
-                alt=""
-                className="lg:w-80 md:w-52 mx-auto"
-              />
-              <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
-                <span className="text-[#003b29] pt-2">
-                  <p className="text-xl primary-font font-medium">CTF Trade Center</p>
-                  <p>Raleigh & Durham, NC</p>
-                </span>
-                <FaArrowUp className="rotate-45 text-2xl" />
-              </div>
-            </div>
-            <div className="lg:pb-0 pb-4">
-              <img
-                src="/assets/grid_image2.png"
-                alt=""
-                className="lg:w-80 md:w-52 mx-auto"
-              />
-              <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
-                <span className="text-[#003b29] pt-2">
-                  <p className="text-xl primary-font font-medium">Guangzhou Tower</p>
-                  <p>Portland, ME</p>
-                </span>
-                <FaArrowUp className="rotate-45 text-2xl" />
-              </div>
-            </div>
-            <div className="lg:pb-0 pb-4">
-              <img
-                src="/assets/grid_image3.png"
-                alt=""
-                className="lg:w-80 md:w-52 mx-auto"
-              />
-              <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
-                <span className="text-[#003b29] pt-2">
-                  <p className="text-xl primary-font font-medium">MK Finance Center</p>
-                  <p>Sarasota, FL</p>
-                </span>
-                <FaArrowUp className="rotate-45 text-2xl" />
-              </div>
-            </div>
+          <div className="md:flex items-center justify-between lg:pt-20 pt-8 gap-x-16">
+            <Cards
+              img={"/assets/grid_image1.png"}
+              title={"CTF Trade Center"}
+              desc={"Raleigh & Durham, NC"}
+            />
+            <Cards
+              img={"/assets/grid_image2.png"}
+              title={"Guangzhou Tower"}
+              desc={"Portland, ME"}
+            />
+            <Cards
+              img={"/assets/grid_image3.png"}
+              title={"MK Finance Center"}
+              desc={"Sarasota, FL"}
+            />
           </div>
           <button className="rounded-full mx-auto mt-12 px-4 py-2 flex items-center text-sm bg-[#fd7b47] text-white gap-2 transition ease-out duration-300 transform hover:scale-110">
             <p className="">Load more</p>

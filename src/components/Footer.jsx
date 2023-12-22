@@ -3,10 +3,9 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { FaBolt } from "react-icons/fa6";
+import { FaBolt, FaXTwitter } from "react-icons/fa6";
 import { IoMdArrowDropright } from "react-icons/io";
 
 const Footer = () => {
@@ -74,7 +73,7 @@ const Footer = () => {
                 <FaInstagram className="cursor-pointer rounded-full border border-[#154b3b] p-2 h-8 w-8" />
                 <FaYoutube className="cursor-pointer rounded-full border border-[#154b3b] p-2 h-8 w-8" />
                 <FaLinkedinIn className="cursor-pointer rounded-full border border-[#154b3b] p-2 h-8 w-8" />
-                <FaTwitter className="cursor-pointer rounded-full border border-[#154b3b] p-2 h-8 w-8" />
+                <FaXTwitter className="cursor-pointer rounded-full border border-[#154b3b] p-2 h-8 w-8" />
               </span>
             </ul>
           </div>
