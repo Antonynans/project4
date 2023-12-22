@@ -18,7 +18,7 @@ const Footer = () => {
             <span className="lg:w-4/5 lg:flex items-center justify-start">
               <button className="lg:w-1/3 flex items-center gap-x-4 text-white">
                 <FaBolt className="text-2xl" />
-                <p className="text-2xl">Arco.io</p>
+                <p className="text-2xl primary-font">Arco.io</p>
               </button>
               <p className="lg:flex justify-center lg:w-1/3 lg:py-0 py-6">
                 Architecture with understanding people's mind

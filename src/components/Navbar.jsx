@@ -19,7 +19,7 @@ const Navbar = () => {
           >
             <button className="flex items-center gap-x-4 text-white">
               <FaBolt className="text-2xl" />
-              <p className="text-2xl">Arco.io</p>
+              <p className="text-2xl primary-font">Arco.io</p>
             </button>
           </a>
           <div className="flex items-center">
@@ -57,9 +57,9 @@ const Navbar = () => {
             </div>
 
             <div className="lg:w-1/3 flex lg:flex-row flex-col items-center justify-end gap-x-8">
-              <li className="py-2 flex text-white font-medium items-center leading-snug hover:opacity-40">
-                <a href="#">EN</a>
-                <IoMdArrowDropdown />
+              <li className="py-2 text-white font-medium leading-snug hover:opacity-40">
+                <a href="#" className=" flex items-center">EN
+                <IoMdArrowDropdown /></a>
               </li>
               <li className="py-2 flex text-white font-medium items-center leading-snug hover:opacity-40">
                 <FaGripLines className="text-xl" />

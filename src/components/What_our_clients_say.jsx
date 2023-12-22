@@ -49,7 +49,7 @@ const What_our_clients_say = () => {
         <p>Testimonial</p>
 
         <div className="relative lg:pb-0 pb-8">
-          <h1 className="lg:text-4xl text-xl">
+          <h1 className="lg:text-4xl primary-font text-xl">
             What our{" "}
             <span className="underline decoration-[#fdca51]">client</span> say's
           </h1>
@@ -72,7 +72,7 @@ const What_our_clients_say = () => {
                   alt=""
                   className="w-20 h-20 rounded-full -mt-8 mx-auto"
                 />
-                <p className="text-xl font-semibold pt-4 pb-2">Wade Warren</p>
+                <p className="text-xl primary-font font-semibold pt-4 pb-2">Wade Warren</p>
                 <p className="font-light pb-4">Co-founder At Attalo</p>
                 <hr />
                 <p className="pt-4">
@@ -89,7 +89,7 @@ const What_our_clients_say = () => {
                   alt=""
                   className="w-20 h-20 rounded-full -mt-8 mx-auto"
                 />
-                <p className="text-xl font-semibold pt-4 pb-2">Jenny Wilson</p>
+                <p className="text-xl primary-font font-semibold pt-4 pb-2">Jenny Wilson</p>
                 <p className="font-light pb-4">Project Manager At Nokaso</p>
                 <hr />
                 <p className="pt-4">
@@ -107,7 +107,7 @@ const What_our_clients_say = () => {
                   alt=""
                   className="w-20 h-20 rounded-full -mt-8 mx-auto"
                 />
-                <p className="text-xl font-semibold pt-4 pb-2">Floyd Miles</p>
+                <p className="text-xl primary-font font-semibold pt-4 pb-2">Floyd Miles</p>
                 <p className="font-light pb-4">Co-founder At Rajuna</p>
                 <hr />
                 <p className="pt-4">

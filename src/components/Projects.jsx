@@ -12,12 +12,12 @@ const Projects = () => {
     <div className="relative overflow-hidden bg-[#fff6ed] lg:py-20 py-8">
       <div className="h-[50px] bg-[#003b29] absolute -bottom-7 -left-[30px] -right-[30px] py-3 px-[30px] rounded-[50%]"></div>
       <div className="container mx-auto px-3 pt-8">
-        <section className="relative">
+        <section className="relative lg:py-0 py-8">
           <p className="text-center text-[#fb7a3f]">Our recent works</p>
-          <h1 className="text-center text-[#054130] lg:text-4xl text-xl font-semibold">
+          <h1 className="text-center text-[#054130] primary-font lg:text-5xl text-xl font-semibold">
             Our completed projects
           </h1>
-          <div className="md:flex items-center justify-between pt-20">
+          <div className="md:flex items-center justify-between lg:pt-20 pt-8">
             <div className="lg:pb-0 pb-4">
               <img
                 src="/assets/grid_image1.png"
@@ -26,7 +26,7 @@ const Projects = () => {
               />
               <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
                 <span className="text-[#003b29] pt-2">
-                  <p className="text-xl font-medium">CTF Trade Center</p>
+                  <p className="text-xl primary-font font-medium">CTF Trade Center</p>
                   <p>Raleigh & Durham, NC</p>
                 </span>
                 <FaArrowUp className="rotate-45 text-2xl" />
@@ -40,7 +40,7 @@ const Projects = () => {
               />
               <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
                 <span className="text-[#003b29] pt-2">
-                  <p className="text-xl font-medium">Guangzhou Tower</p>
+                  <p className="text-xl primary-font font-medium">Guangzhou Tower</p>
                   <p>Portland, ME</p>
                 </span>
                 <FaArrowUp className="rotate-45 text-2xl" />
@@ -54,7 +54,7 @@ const Projects = () => {
               />
               <div className="flex items-center justify-between md:w-auto w-60 mx-auto">
                 <span className="text-[#003b29] pt-2">
-                  <p className="text-xl font-medium">MK Finance Center</p>
+                  <p className="text-xl primary-font font-medium">MK Finance Center</p>
                   <p>Sarasota, FL</p>
                 </span>
                 <FaArrowUp className="rotate-45 text-2xl" />
@@ -74,30 +74,30 @@ const Projects = () => {
         <section className="flex items-center justify-between mt-24 mb-16 gap-2">
           <span className="flex items-center lg:gap-x-2">
             <MdOfflineBolt className="text-3xl" />
-            <p className="font-medium text-xl">Boltshift</p>
+            <p className="font-medium primary-font text-xl">Boltshift</p>
           </span>
           <span className="flex items-center lg:gap-x-2">
             <SiHackthebox className="text-3xl" />
-            <p className="font-medium text-xl">Lightbox</p>
+            <p className="font-medium primary-font text-xl">Lightbox</p>
           </span>
           <span className="flex items-center lg:gap-x-2">
             <FaStackOverflow className="text-3xl" />
-            <p className="font-medium text-xl">FeatherDev</p>
+            <p className="font-medium primary-font text-xl">FeatherDev</p>
           </span>
           <span className="flex items-center lg:gap-x-2">
             <BiLoaderCircle className="text-3xl" />
-            <p className="font-medium text-xl">Spherule</p>
+            <p className="font-medium primary-font text-xl">Spherule</p>
           </span>
           <span className="flex items-center lg:gap-x-2">
             <TbVectorBezierCircle className="text-3xl" />
-            <p className="font-medium text-xl">Nietzsche</p>
+            <p className="font-medium primary-font text-xl">Nietzsche</p>
           </span>
         </section>
 
         <section className="lg:flex justify-between items-center relative mt-12 lg:p-8">
           <div className="lg:w-1/2">
             <p className="text-[#fb7a3f]">Our Newsletter</p>
-            <h1 className="text-[#054130] lg:text-4xl text-xl font-semibold pt-4 pb-6">
+            <h1 className="text-[#054130] primary-font lg:text-4xl text-xl font-semibold pt-4 pb-6">
               Subscribe our daily{" "}
               <span className="underline decoration-[#fdca51]">Newsletter</span>{" "}
               for update
