@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { MdOfflineBolt } from "react-icons/md";
 import { SiHackthebox } from "react-icons/si";
 import { IoIosArrowUp, IoMdArrowDropright } from "react-icons/io";
